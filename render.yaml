@@ -17,7 +17,7 @@ services:
     dockerfile: Dockerfile
     github:
       branch: main
-      repo: yourusername/your-repo
+      repo: BaloeDB/specops-api
   - name: db
     env:
       - key: POSTGRES_USER
