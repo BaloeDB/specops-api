@@ -75,6 +75,6 @@ ENTRYPOINT ["java", "-jar", "app.jar"]
 # Copy the executable from the "package" stage.
 # COPY --from=package build/target/app.jar app.jar
 
-# EXPOSE 8080
+EXPOSE 8080
 
 # ENTRYPOINT [ "java", "-jar", "app.jar" ]
