@@ -11,6 +11,8 @@ services:
   app:
     build:
       context: .
+    ports:
+      - 8080:8080
     container_name: app
 
     # The commented out section below is an example of how to define a PostgreSQL
